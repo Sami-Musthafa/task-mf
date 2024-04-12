@@ -37,7 +37,7 @@ const LastActivityCard = () => {
   };
 
   return (
-    <div>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
       <Card>
         <CardContent>
           <Box display="flex" justifyContent="space-between">
@@ -122,7 +122,7 @@ const LastActivityCard = () => {
           </Box>
         </Card>
         <Card>
-          <Box display="flex" justifyContent="space-around" alignItems="center">
+          <Box display="flex" justifyContent="space-evenly" alignItems="center">
             <Box display="flex" justifyContent="flex-start" alignItems="center">
               <img
                 width="17%"
